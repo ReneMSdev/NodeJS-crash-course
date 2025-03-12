@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --env-file=.env server2.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/ReneMSdev/NodeJS-crash-course/issues"
   },
-  "homepage": "https://github.com/ReneMSdev/NodeJS-crash-course#readme"
+  "homepage": "https://github.com/ReneMSdev/NodeJS-crash-course#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
 }
